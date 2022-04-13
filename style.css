@@ -1,0 +1,89 @@
+body{
+    background-color: #000000;
+}
+.containerPrincipal{
+    width: 100%;
+    max-width: 1280px;
+    height: 720px;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+header div figure{
+    max-width: 1280px;
+    display: flex;
+    margin-bottom: 73px;
+}
+
+header div figure img{
+    margin: 42px auto;
+    width: 229px;
+    height: 68px;
+}
+.titulo{
+    display: flex;
+}
+
+h1{
+    margin: 0 auto 61px;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+section nav ul{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    margin: 0 auto;
+}
+
+section nav ul li{
+    width: 160px;
+    height: 210px;
+    margin-right: 26px;
+}
+
+section nav ul li figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+
+section nav ul li figure img{
+    border-radius: 8px;
+
+}
+
+.adicionarUsuario{
+    border: 1px solid blue;
+    padding: 53px 52px 43px;
+}
+
+section nav ul li p{
+    color: #9C9C9C;
+    margin: 0 auto;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+button{
+    display: block;
+    margin: 70px auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+    width: 206px;
+    height: 50px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+section nav ul li figure img:hover{
+    border: 2px solid #FFFFFF;
+
+}
+
+li:hover p{
+    color:#FFFFFF
+}
+
